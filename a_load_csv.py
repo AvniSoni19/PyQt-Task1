@@ -18,6 +18,7 @@ def load_csv(csv_viewer):
             # Create a dialog box for selecting multiple columns
             dialog = QDialog()
             dialog.setWindowTitle("Select Y-Axis Data Columns")
+            dialog.setGeometry(300,300,400,200)
             layout = QVBoxLayout()
             list_widget = QListWidget()
             
