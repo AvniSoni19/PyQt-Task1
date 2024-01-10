@@ -1,34 +1,44 @@
 # Assignment Task
 <h2> Functionalities </h2>
-Load CSV File: Users can select and load a CSV file through a file dialog.
-Display Interactive Plot: The application visualizes the loaded data as an interactive plot using pyqtgraph.
-Error Handling: Handles exceptions during file loading and data extraction processes.
-Real-time Feedback: Provides real-time updates and feedback during file loading and plotting operations.
+<ul>
+<li>Load CSV File: Users can select and load a CSV file through a file dialog.</li><br>
+<li>Display Interactive Plot: The application visualizes the loaded data as an interactive plot using pyqtgraph.</li><br>
+<li>Error Handling: Handles exceptions during file loading and data extraction processes.</li><br>
+<li>Real-time Feedback: Provides real-time updates and feedback during file loading and plotting operations.</li><br>
+</ul>
 
 <h2>Additional Functionalities</h2>
-Selective Column Plotting: Ability to select specific columns from the loaded CSV file for visualization.
-Dynamic Legend: Provides a dynamic legend for each plotted data series.
-Increase Amplitude: Functionality to increase the amplitude (Y-axis range) of the displayed plot by 20%.
-Decrease Amplitude: Functionality to decrease the amplitude (Y-axis range) of the displayed plot by 20%.
-Export Graph as PNG: Users can export the displayed graph as a PNG image file.
-Interactive Legend: Users can click and drag the legend to reposition it within the plot.
+<ul>
+<li>Selective Column Plotting: Ability to select specific columns from the loaded CSV file for visualization.</li><br>
+<li>Dynamic Legend: Provides a dynamic legend for each plotted data series.</li><br>
+<li>Increase Amplitude: Functionality to increase the amplitude (Y-axis range) of the displayed plot by 20%.</li><br>
+<li>Decrease Amplitude: Functionality to decrease the amplitude (Y-axis range) of the displayed plot by 20%.</li><br>
+<li>Export Graph as PNG: Users can export the displayed graph as a PNG image file.</li><br>
+<li>Interactive Legend: Users can click and drag the legend to reposition it within the plot.</li><br>
+</ul>
 
 <h2>Technologies Used</h2>
-PyQt5: Used for building the graphical user interface.
-pyqtgraph: Utilized for generating interactive plots within the application.
-pandas: Employed for CSV file reading and data manipulation.
+<ul>
+<li>PyQt5: Used for building the graphical user interface.</li><br>
+<li>pyqtgraph: Utilized for generating interactive plots within the application.</li><br>
+<li>pandas: Employed for CSV file reading and data manipulation.</li><br>
+</ul>
 
 <h2>Installation</h2>
-To run, ensure you have the following prerequisites installed:
-Python 3.x
-PyQt5 ('pip install PyQt5')
-pyqtgraph ('pip install pyqtgraph')
-pandas ('pip install pandas')
+To run, ensure you have the following prerequisites installed:<br>
+<ul>
+<li>Python 3.x</li><br>
+<li>PyQt5 ('pip install PyQt5')</li><br>
+<li>pyqtgraph ('pip install pyqtgraph')</li><br>
+<li>pandas ('pip install pandas')</li><br>
+</ul>
 
 <h2>Running the Application</h2>
-To launch the application:
-Clone the repository or download the source code.
-Ensure all dependencies are installed.
-Run the main.py file using Python.
+To launch the application:<br>
+<ul>
+<li>Clone the repository or download the source code.</li><br>
+<li>Ensure all dependencies are installed.</li><br>
+<li>Run the main.py file using Python.</li><br>
+</ul>
 
 <h2>File Details</h2>
