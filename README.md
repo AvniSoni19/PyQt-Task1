@@ -1,5 +1,5 @@
 # Assignment Task
-<h1> Functionalities </h1>
+<h2> Functionalities </h2>
 Load CSV File: Users can select and load a CSV file through a file dialog.
 Display Interactive Plot: The application visualizes the loaded data as an interactive plot using pyqtgraph.
 Error Handling: Handles exceptions during file loading and data extraction processes.
