@@ -42,3 +42,11 @@ To launch the application:<br>
 </ul>
 
 <h2>File Details</h2>
+<ul>
+<li>main.py: This is the main execution file which executes the whole application</li><br>
+<li>csv_data_viewer.py: This file integrates all the module, sets the layout.</li><br>
+<li>c_export.py: It includes the functionality to export the graph and save it in png format.</li><br>
+<li>b_amplitude.py: It includes the functionality of increase and decrease amplitudes.</li><br>
+<li>a_load_csv.py:It includes loadin the csv file, selecting the columns and plotting the graph.</li><br>
+<li>Export.png: It is the sample graph in png format that has been exported in real time implementation of the code.</li><br>
+</ul>
