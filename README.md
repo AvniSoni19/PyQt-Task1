@@ -1,6 +1,6 @@
 # Assignment Task
-Used Technologies:
-->PyQt
-->pyqtgraph
-->Pandas
-->NumPy
+Used Technologies: <br>
+->PyQt <br>
+->pyqtgraph <br>
+->Pandas <br>
+->NumPy <br>
