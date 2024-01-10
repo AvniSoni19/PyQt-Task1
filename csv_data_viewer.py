@@ -1,7 +1,6 @@
 from PyQt5.QtWidgets import QMainWindow, QPushButton, QVBoxLayout, QHBoxLayout, QWidget
 import pyqtgraph as pg
-import pandas as pd
-from plot_manager import PlotManager
+from cplot_manager import PlotManager 
 from file_manager import FileManager
 
 class CSVDataViewer(QMainWindow):
@@ -13,7 +12,6 @@ class CSVDataViewer(QMainWindow):
 
         self.plot_manager = PlotManager()
         self.file_manager = FileManager()
-
         self.plot_widget = pg.PlotWidget()
         self.load_button = QPushButton("Load CSV File")
         self.load_button.clicked.connect(self.file_manager.load_csv)
