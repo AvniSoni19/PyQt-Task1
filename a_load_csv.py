@@ -49,7 +49,7 @@ def load_csv(csv_viewer):
                     for idx, col in enumerate(selected_columns):
                         if pd.api.types.is_numeric_dtype(data[col]):
                             color = pg.intColor(idx, hues=len(selected_columns))
-                            plot = csv_viewer.plot_widget.plot(x_data, data[col], pen=color, name=f"y{idx+1} - {col}")
+                            plot = csv_viewer.plot_widget.plot(x_data, data[col], pen=color, symbol='o', name=f"y{idx+1} - {col}")
                             legend.append(plot)
                         else:
                             QMessageBox.warning(csv_viewer, "Warning", f"Column '{col}' contains non-numeric data and cannot be plotted.")
@@ -59,14 +59,14 @@ def load_csv(csv_viewer):
                         for idx, col in enumerate(columns):
                             if pd.api.types.is_numeric_dtype(data[col]):
                                 color = pg.intColor(idx, hues=len(columns))
-                                plot = csv_viewer.plot_widget.plot(x_data, data[col], pen=color, name=f"y{idx+1} - {col}")
+                                plot = csv_viewer.plot_widget.plot(x_data, data[col], pen=color,symbol='o', name=f"y{idx+1} - {col}")
                                 legend.append(plot)
                 else:
                     # Plot selected columns if numeric
                     for idx, col in enumerate(selected_columns):
                         if pd.api.types.is_numeric_dtype(data[col]):
                             color = pg.intColor(idx, hues=len(selected_columns))
-                            plot = csv_viewer.plot_widget.plot(x_data, data[col], pen=color, name=col)
+                            plot = csv_viewer.plot_widget.plot(x_data, data[col], pen=color, symbol='o',name=col)
                             legend.append(plot)
                         else:
                             QMessageBox.warning(csv_viewer, "Warning", f"Column '{col}' contains non-numeric data and cannot be plotted.")
